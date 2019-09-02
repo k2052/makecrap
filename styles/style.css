@@ -5,21 +5,13 @@ body {
   color: #24231b;
   font-family: 'Arvo', serif;
   padding: 0 1rem 0 1rem;
-  max-width: 96%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
 .amp {
 	font-style: italic;
 	font-weight: lighter;
-}
-
-#bigtext {
-	text-align: left;
-	text-transform: uppercase;
-	line-height: 1.1;
-	font-size: 6.6vw;
-	font-weight: normal;
 }
 
 h1 {
@@ -95,7 +87,6 @@ a:visited {
 .IsTo, .And, .now {
   text-align: center;
 }
-
 
 .meta {
   position: relative;
