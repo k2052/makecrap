@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap');
+
+body {
+  background: #edebe7;
+  color: #24231b;
+  font-family: 'Arvo', serif;
+  padding: 0 12rem 0 12rem;
+  max-width: 98%;
+  margin: 0 auto;
+}
+
+.amp {
+	font-style: italic;
+	font-weight: lighter;
+}
+
+#bigtext {
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 1.1;
+	font-size: 6.6vw;
+	font-weight: normal;
+}
+
+h1 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.red {
+	color: #b04a4a; 
+}
+
+.blue {
+	color: #B2C2CC;
+}
+
+.tan {
+	color: #FFF9F9;
+}
+
+.yellow {
+	color: #FFFFDF;
+}
+
+.gray {
+	color: #A1ACB2;
+}
+
+.focus {
+}
+
+.sharing {
+	color: #B2C2CC;
+}
+
+.better {
+	color: #b04a4a;
+}
+
+.vision {
+	color: #FFFFDF;
+}
+
+.now {
+	color: #A1ACB2;
+}
+
+.italic {
+	font-style: italic;
+}
+
+a {
+	color: #A1ACB2;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	font-weight: normal;
+}
+
+a:visited {
+	color: #B2C2CC;
+}
+
+.IsTo, .And, .now {
+  text-align: center;
+}
+
+
+.meta {
+  position: relative;
+  z-index: 100;
+  margin: 1rem;
+}
