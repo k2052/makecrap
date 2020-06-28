@@ -9,7 +9,7 @@
     "@zeit/next-css": "^1.0.1",
     "classnames": "^2.2.6",
     "fitty": "^2.2.6",
-    "next": "^9.0.5",
+    "next": "^9.3.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
