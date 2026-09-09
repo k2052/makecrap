@@ -10,6 +10,7 @@
 /build
 /dist
 /.next
+/.wrangler
 
 # misc
 .DS_Store

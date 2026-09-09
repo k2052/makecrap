@@ -1,16 +1,33 @@
 {
   "name": "makecrap",
+  "version": "1.0.0",
+  "description": "Make Crap. Now not later",
+  "type": "module",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "release": "npm run build && wrangler deploy",
+    "types": "tsc",
+    "check": "npm run types"
   },
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "classnames": "^2.2.6",
-    "fitty": "^2.2.6",
-    "next": "^12.1.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "classnames": "^2.5.1",
+    "fitty": "^2.4.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-server-dom-webpack": "19.2.8",
+    "rwsdk": "1.7.2"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.50.0",
+    "@cloudflare/workers-types": "^5.20260801.1",
+    "@types/node": "^26.1.2",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1",
+    "wrangler": "^4.118.0"
   }
 }
+
