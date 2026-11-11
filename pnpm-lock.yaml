@@ -21,11 +21,11 @@ importers:
         specifier: 19.2.8
         version: 19.2.8(react@19.2.8)
       react-server-dom-webpack:
-        specifier: 19.2.8
-        version: 19.2.8(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26))
+        specifier: 19.2.9
+        version: 19.2.9(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26))
       rwsdk:
         specifier: 1.7.2
-        version: 1.7.2(@cloudflare/vite-plugin@1.53.0(vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1)(terser@5.50.0))(wrangler@4.124.0(@cloudflare/workers-types@5.20260819.1)))(react-dom@19.2.8(react@19.2.8))(react-server-dom-webpack@19.2.8(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26)))(react@19.2.8)(supports-color@10.2.2)(typescript@7.0.2)(vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1)(terser@5.50.0))(wrangler@4.124.0(@cloudflare/workers-types@5.20260819.1))(yauzl@3.4.0)
+        version: 1.7.2(@cloudflare/vite-plugin@1.53.0(vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1)(terser@5.50.0))(wrangler@4.124.0(@cloudflare/workers-types@5.20260819.1)))(react-dom@19.2.8(react@19.2.8))(react-server-dom-webpack@19.2.9(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26)))(react@19.2.8)(supports-color@10.2.2)(typescript@7.0.2)(vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1)(terser@5.50.0))(wrangler@4.124.0(@cloudflare/workers-types@5.20260819.1))(yauzl@3.4.0)
     devDependencies:
       '@cloudflare/vite-plugin':
         specifier: ^1.50.0
@@ -1732,12 +1732,12 @@ packages:
   react-is@19.2.8:
     resolution: {integrity: sha512-s5un28nYxKJw5gvUHyW5PCC28CvBqLu9r3cWgzHT4Vo/5fqqkFcdRYsGcKf50WMPpjjFZS5d76fn3YCo2njKwQ==}
 
-  react-server-dom-webpack@19.2.8:
-    resolution: {integrity: sha512-rFO1VJZ+cH9ZH6hGy9+qmIsmZHZpCMKJZXhWHqT71UnSfg+w+W+gwrwp58MVzMqdFquG8GF1c6C8q0OGphkEdg==}
+  react-server-dom-webpack@19.2.9:
+    resolution: {integrity: sha512-7vhLc+COcttZsIsZa5qbT4Qn3Flp2fCadhuGRKpwE3ahmbu21hOnPFKwziNHZj8Fqtfcbs7pTJV69QA5GcUpbw==}
     engines: {node: '>=0.10.0'}
     peerDependencies:
-      react: ^19.2.8
-      react-dom: ^19.2.8
+      react: ^19.2.9
+      react-dom: ^19.2.9
       webpack: ^5.59.0
 
   react@19.2.8:
@@ -3803,7 +3803,7 @@ snapshots:
 
   react-is@19.2.8: {}
 
-  react-server-dom-webpack@19.2.8(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26)):
+  react-server-dom-webpack@19.2.9(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26)):
     dependencies:
       acorn-loose: 8.5.2
       neo-async: 2.6.2
@@ -3904,7 +3904,7 @@ snapshots:
 
   rsc-html-stream@0.0.8: {}
 
-  rwsdk@1.7.2(@cloudflare/vite-plugin@1.53.0(vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1)(terser@5.50.0))(wrangler@4.124.0(@cloudflare/workers-types@5.20260819.1)))(react-dom@19.2.8(react@19.2.8))(react-server-dom-webpack@19.2.8(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26)))(react@19.2.8)(supports-color@10.2.2)(typescript@7.0.2)(vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1)(terser@5.50.0))(wrangler@4.124.0(@cloudflare/workers-types@5.20260819.1))(yauzl@3.4.0):
+  rwsdk@1.7.2(@cloudflare/vite-plugin@1.53.0(vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1)(terser@5.50.0))(wrangler@4.124.0(@cloudflare/workers-types@5.20260819.1)))(react-dom@19.2.8(react@19.2.8))(react-server-dom-webpack@19.2.9(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26)))(react@19.2.8)(supports-color@10.2.2)(typescript@7.0.2)(vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1)(terser@5.50.0))(wrangler@4.124.0(@cloudflare/workers-types@5.20260819.1))(yauzl@3.4.0):
     dependencies:
       '@ast-grep/napi': 0.45.1
       '@cloudflare/vite-plugin': 1.53.0(vite@8.2.4(@types/node@26.2.0)(esbuild@0.28.1)(terser@5.50.0))(wrangler@4.124.0(@cloudflare/workers-types@5.20260819.1))
@@ -3940,7 +3940,7 @@ snapshots:
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
       react-is: 19.2.8
-      react-server-dom-webpack: 19.2.8(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26))
+      react-server-dom-webpack: 19.2.9(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(webpack@5.109.2(esbuild@0.28.1)(lightningcss@1.33.0)(postcss@8.5.26))
       rsc-html-stream: 0.0.8
       server-only: 0.0.1
       tmp-promise: 3.0.3
